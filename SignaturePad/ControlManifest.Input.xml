@@ -4,7 +4,8 @@
     <external-service-usage enabled="false">
     </external-service-usage>
    <!-- Signature Value -->
-    <property name="value" display-name-key="Value" description-key="Value" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <!-- <property name="value" display-name-key="Value" description-key="Value" of-type="SingleLine.Text" usage="bound" required="true"/> -->
+    <property name="value" display-name-key="Value" description-key="Value" of-type="Multiple" usage="bound" required="true"/>
     
     <!-- ✅ Make Width & Height Configurable -->
     <property name="width" display-name-key="Width" description-key="Control Width" of-type="Whole.None" usage="input" required="false"/>
