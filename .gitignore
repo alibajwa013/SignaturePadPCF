@@ -15,3 +15,7 @@
 
 # MSBuild Binary and Structured Log
 *.binlog
+
+#Solution folder Solution
+/SignaturePadSolution
+package-lock.json
