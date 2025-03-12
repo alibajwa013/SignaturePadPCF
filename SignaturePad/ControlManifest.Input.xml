@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="SignaturePadControl" constructor="SignaturePad" display-name-key="SignaturePad" description-key="SignaturePad description" version="1.0.0" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+   <!-- Signature Value -->
+    <property name="value" display-name-key="Value" description-key="Value" of-type="SingleLine.Text" usage="bound" required="true"/>
+    
+    <!-- ✅ Make Width & Height Configurable -->
+    <property name="width" display-name-key="Width" description-key="Control Width" of-type="Whole.None" usage="input" required="false"/>
+    <property name="height" display-name-key="Height" description-key="Control Height" of-type="Whole.None" usage="input" required="false"/>
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>

@@ -1,0 +1,12 @@
+{
+    "extends": "./node_modules/pcf-scripts/tsconfig_base.json",
+    "compilerOptions": {
+        "typeRoots": ["node_modules/@types"],
+        "rootDir": "./SignaturePad",
+        "outDir": "./out",
+        "jsx": "react-jsx"
+    },
+    "include": ["SignaturePad/**/*"],
+    "allowSyntheticDefaultImports": true,
+    "exclude": ["node_modules", "out"]
+}
