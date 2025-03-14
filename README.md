@@ -1,3 +1,10 @@
+# Recent Changes
+- As per latest update, It should be configured with Multiple Lines of Text field type rather than Single Line of Text type field.
+
+
+
+
+
 # SignaturePadPCF
 This project  is PCF control for Signature Pad and can be used in Power Apps forms.
 
